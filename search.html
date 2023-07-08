@@ -10,9 +10,9 @@
 </head>
 <body class="searchBody">
     <header>
-        <nav class="navbar">
-            <a href="/index.html" class="navbar-item">Home</a>
-            <a href="/search.html" class="navbar-item">Search</a>
+        <nav class="navbar rowbox">
+            <a href="/home.html" class="navbar-item"><i class="fa-solid fa-house fa-xl"></i></a>
+            <a href="/search.html" class="navbar-item"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: black;"></i></a>
           </nav>
        </header>
 
@@ -28,20 +28,218 @@
        </section>
 
        <section class="rowbox center findbox">
-                <input class="input" id="inputvalue" type="text" placeholder="search by feild,skills">
+
+                <input class="input" id="inputvalue" type="text" placeholder="search by role">
                 <button class="btn" onclick="handleSearch()"> search</button>
        </section>
 
-       <section id="results" class="rowbox">
+       <section id="results" class="columnbox">
+
+            <div class="box2" id="pannel">
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Abhishek Kumar</p>
+                        <p><span class="tag">Age :</span> 21</p>
+                        <!-- <p><span class="tag">Feild :</span> IT</p> -->
+                        <p><span class="tag">Role :</span><span class="role">  Frontend Web Developer</span></p>
+                        <p><span class="tag">Experince :</span> fresher</p>
+                        <p><span class="tag">Education :</span> Graduation</p>
+                        <p><span class="tag">Nationality :</span> Indian</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Front end Web Developer
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Zlatan Ibrahimovic</p>
+                        <p><span class="tag">Age :</span> 41</p>
+                        <!-- <p><span class="tag">Feild :</span> IT</p> -->
+                        <p><span class="tag">Role :</span><span class="role">  Full stack Developer</span></p>
+                        <p><span class="tag">Experince :</span> 15 years</p>
+                        <p><span class="tag">Education :</span> Graduation</p>
+                        <p><span class="tag">Nationality :</span> Swedish</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Full stack Web Developer
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Sunil Chhetri</p>
+                        <p><span class="tag">Age :</span> 38</p>
+                        <!-- <p><span class="tag">Feild :</span> IT</p> -->
+                        <p><span class="tag">Role :</span><span class="role">  Data Scientest</span></p>
+                        <p><span class="tag">Experince :</span> 12 years</p>
+                        <p><span class="tag">Education :</span> Masters</p>
+                        <p><span class="tag">Nationality :</span> Indian</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Data Scientest
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Mahesh Noram Singhr</p>
+                        <p><span class="tag">Age :</span> 26</p>
+                        <!-- <p><span class="tag">Feild :</span> IT</p> -->
+                        <p><span class="tag">Role :</span> <span class="role"> Java Developer</span></p>
+                        <p><span class="tag">Experince :</span> 3 years</p>
+                        <p><span class="tag">Education :</span> Graduation</p>
+                        <p><span class="tag">Nationality :</span> Indian</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Java Developer
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Udanta Singh</p>
+                        <p><span class="tag">Age :</span> 22</p>
+                        <!-- <p><span class="tag">Feild :</span> IT</p> -->
+                        <p><span class="tag">Role :</span><span class="role">  Backend Web Developer</span></p>
+                        <p><span class="tag">Experince :</span> fresher</p>
+                        <p><span class="tag">Education :</span> Graduation</p>
+                        <p><span class="tag">Nationality :</span> Indian</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Backend Web Developer
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/zlatan.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Sergio Ramos</p>
+                        <p><span class="tag">Age :</span> 30</p>
+                        <!-- <p><span class="tag">Feild :</span> Finance</p> -->
+                        <p><span class="tag">Role :</span><span class="role">  Accontant</span></p>
+                        <p><span class="tag">Experince :</span> 8 years</p>
+                        <p><span class="tag">Education :</span> P.hd</p>
+                        <p><span class="tag">Nationality :</span> Spanish</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                        Accountant
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/pat.png" alt="talented employee">
+    
+                    <div class="text-1 columnbox">
+                        <p><span class="tag">Name :</span> Patrick Bateman</p>
+                        <p><span class="tag">Age :</span> 35</p>
+                        <!-- <p><span class="tag">Feild :</span>  Finance</p> -->
+                        <p><span class="tag">Role :</span><span class="role"> Stock Marcket Analyst</span></p>
+                        <p><span class="tag">Experince :</span> 10 years</p>
+                        <p><span class="tag">Education :</span> Masters</p>
+                        <p><span class="tag">Nationality :</span> American</p>
+                    </div>
+                    <div class="rowbox center">
+                <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+                <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+    
+                    </div>
+                    <div class="columnbox center text-1">
+                        <a href="#dummy-links"> get more details</a>
+                    </div>
+    
+                    <p class="faded role" id="query">
+                       Stock Market Analyst
+                    </p>
+                </div>
+            </div>
+            <div class="text-1">
+                <a href="#dummy-links"> get more candidates</a>
+            </div>
 
        </section>
        <div class="heading2 text-lg">
+        <hr>
         <h4 id="dummy-links">Top Recommendations:</h4>
        </div>
 
+
        <section class="recommend box2">
             <div class="card">
-                <img class="img" src="./images/pat.png" alt="ceo">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
 
                 <div class="text-1 columnbox">
                     <p><span class="tag">Name :</span> Abhishek Kumar</p>
@@ -59,12 +257,217 @@
             <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
 
                 </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
 
                 <p class="faded" id="query">
                     Front end Web Developer
                 </p>
             </div>
+            <div class="card">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Zlatan Ibrahimovic</p>
+                    <p><span class="tag">Age :</span> 41</p>
+                    <p><span class="tag">Feild :</span> IT</p>
+                    <p><span class="tag">Role :</span> Full stack Developer</p>
+                    <p><span class="tag">Experince :</span> 15 years</p>
+                    <p><span class="tag">Education :</span> Graduation</p>
+                    <p><span class="tag">Nationality :</span> Swedish</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                    Full stack Web Developer
+                </p>
+            </div>
+            <div class="card">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Sunil Chhetri</p>
+                    <p><span class="tag">Age :</span> 38</p>
+                    <p><span class="tag">Feild :</span> IT</p>
+                    <p><span class="tag">Role :</span> Data Scientest</p>
+                    <p><span class="tag">Experince :</span> 12 years</p>
+                    <p><span class="tag">Education :</span> Masters</p>
+                    <p><span class="tag">Nationality :</span> Indian</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                    Data Scientest
+                </p>
+            </div>
+            <div class="card">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Mahesh Noram Singhr</p>
+                    <p><span class="tag">Age :</span> 26</p>
+                    <p><span class="tag">Feild :</span> IT</p>
+                    <p><span class="tag">Role :</span> Java Developer</p>
+                    <p><span class="tag">Experince :</span> 3 years</p>
+                    <p><span class="tag">Education :</span> Graduation</p>
+                    <p><span class="tag">Nationality :</span> Indian</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                    Java Developer
+                </p>
+            </div>
+            <div class="card">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Udanta Singh</p>
+                    <p><span class="tag">Age :</span> 22</p>
+                    <p><span class="tag">Feild :</span> IT</p>
+                    <p><span class="tag">Role :</span> Backend Web Developer</p>
+                    <p><span class="tag">Experince :</span> fresher</p>
+                    <p><span class="tag">Education :</span> Graduation</p>
+                    <p><span class="tag">Nationality :</span> Indian</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                    Backend Web Developer
+                </p>
+            </div>
+            <!-- <div class="card">
+                <img class="img" src="./images/zlatan.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Sergio Ramos</p>
+                    <p><span class="tag">Age :</span> 30</p>
+                    <p><span class="tag">Feild :</span> Finance</p>
+                    <p><span class="tag">Role :</span> Accontant</p>
+                    <p><span class="tag">Experince :</span> 8 years</p>
+                    <p><span class="tag">Education :</span> P.hd</p>
+                    <p><span class="tag">Nationality :</span> Spanish</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                    Accountant
+                </p>
+            </div> -->
+            <div class="card">
+                <img class="img" src="./images/pat.png" alt="talented employee">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Patrick Bateman</p>
+                    <p><span class="tag">Age :</span> 35</p>
+                    <p><span class="tag">Feild :</span> Finance</p>
+                    <p><span class="tag">Role :</span> Stock Marcket Analyst</p>
+                    <p><span class="tag">Experince :</span> 10 years</p>
+                    <p><span class="tag">Education :</span> Masters</p>
+                    <p><span class="tag">Nationality :</span> American</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+                <div class="columnbox center text-1">
+                    <a href="#dummy-links"> get more details</a>
+                </div>
+
+                <p class="faded" id="query">
+                   Stock Market Analyst
+                </p>
+            </div>
        </section>
+
+       <footer >
+        <hr>
+        <div class="foot columnbox">
+    
+          <div>
+            <h4>Thank you for visiting us !</h4>
+          </div>
+    
+          <div class="bye-bye-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem rerum laboriosam fuga, culpa deleniti sed facere illo beatae animi eaque 
+          </div>
+    
+          <div>
+            <h4>Contact/Follow US</h4>
+          </div>
+          <div class="rowbox center iconbox">
+            <a href="#" class="icn2">
+              <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+            </a>
+            <a href="#" class="icn2">
+              <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/abhishek-kumar-080086241/" class="icn2">
+                <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+              </a>
+            <a href="#" class="icn2">
+              <i class="fa-brands fa-discord" style="color: #000000;"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/" class="icn2">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              </a>
+            <a href="#" class="icn2">
+              <i class="fa-brands fa-yahoo" style="color: #000000;"></i>
+            </a>
+          </div>
+    
+      </div>
+    
+       </footer>
 </body>
 <script src="/index.js"></script>
 </html>

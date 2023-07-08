@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: auto; */
+}
+body{
+    font-size: 2rem;
+}
+.navbar {
+  overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    z-index: 10;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .navbar-item:hover{
+    color: blueviolet;
+    text-decoration: underline;
+  }
+
+  
+  .homebody{
+    overflow: hidden;
+      margin-top: 80px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .heading{
+      width: 100%;
+      height: 400px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .greet{
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        padding: 300px 50px;
+        word-wrap: break-word;
+    }
+    .sponsors{
+        background-color: white;
+        height: 100%;
+        width: 90%;
+        margin: 0px auto;
+        position: relative;
+        bottom: 80px;
+        border-radius: 13px;
+        padding: 100px 0px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .columnbox{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .rowbox{
+      display: flex;
+      flex-direction: row;
+
+    }
+.icon{
+  width: 100%;
+  margin: 5px 50px;
+  flex-shrink: 0;
+}
+    
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marki{
+  width: 100%;
+  margin: 30px 0px;
+  animation: marquee 20s linear infinite;
+}
+
+.box2{
+  width: 100%;
+  padding: 50px 10px;
+  overflow: hidden;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  margin: 20px 10px;
+  background-color:rgb(255, 255, 255);
+  border-radius: 13px;
+  text-align: center;
+  width: 31%;
+  height: auto;
+  padding: 5px 12px;
+  box-shadow: 0 4px 8px rgb(193, 188, 188);
+}
+.img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.faded{
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.heading2{
+ text-align: center;
+ font-size: xx-large;
+ font-weight: bold;
+ color: blueviolet;
+ margin: 50px;
+ overflow: hidden;
+}
+
+.foot{
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background-color: blueviolet;
+  color: black;
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.findbox{
+  margin: 50px 0px;
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+}
+
+.btn{
+padding: 5px 9px;
+font-size: 1.3rem;
+background-color: rgb(255, 255, 255);
+border-radius: 13px;
+border: 2px solid blueviolet;
+width: 10%;
+margin: 0px 5px;
+}
+.btn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.input{
+width: 70%;
+height: auto;
+padding: 5px 9px;
+font-size: 1.2rem;
+border-radius: 13px;
+margin: 0px 5px;
+border: 2px solid blueviolet;
+}
+
+#results{
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color: blueviolet;
+}
+
+.text-1{
+  font-size: 1.3rem;
+}
+
+.searchBody{
+  box-sizing: border-box;
+}
+
+.text-lg{
+  font-size: 1.9rem;
+}
+ 
+.icn{
+  margin: 3px 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 880px) {
+  .card{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .findbox{
+    display: flex;
+    flex-direction: column;
+  }
+  .input{
+    width: 90%;
+  }
+  .btn{
+    width: auto;
+    margin-top: 10px;
+  }
+}
+    @media screen and (max-width: 600px) {
+      .navbar {
+        padding: 10px 20px;
+      }
+      body{
+          font-size: 1.5rem;          
+      }
+      .card{
+        width: 90%;
+      }
+      .text-lg{
+        font-size: 1.3rem;
+      }
+    }

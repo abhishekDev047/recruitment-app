@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="searchBody">
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="navbar-item">Home</a>
+            <a href="/search.html" class="navbar-item">Search</a>
+          </nav>
+       </header>
+
+       <section class="columnbox greet">
+
+        <div>
+            <h2>Search for right candidates</h2>
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus in ipsum deserunt suscipit vel? Illum, tenetur inventore! Assumenda dicta nostrum maiores velit earum? Magni dolorem quis vero nulla ducimus.
+        </div>
+
+       </section>
+
+       <section class="rowbox center findbox">
+                <input class="input" id="inputvalue" type="text" placeholder="search by feild,skills">
+                <button class="btn" onclick="handleSearch()"> search</button>
+       </section>
+
+       <section id="results" class="rowbox">
+
+       </section>
+       <div class="heading2 text-lg">
+        <h4 id="dummy-links">Top Recommendations:</h4>
+       </div>
+
+       <section class="recommend box2">
+            <div class="card">
+                <img class="img" src="./images/pat.png" alt="ceo">
+
+                <div class="text-1 columnbox">
+                    <p><span class="tag">Name :</span> Abhishek Kumar</p>
+                    <p><span class="tag">Age :</span> 21</p>
+                    <p><span class="tag">Feild :</span> IT</p>
+                    <p><span class="tag">Role :</span> Frontend Web Developer</p>
+                    <p><span class="tag">Experince :</span> fresher</p>
+                    <p><span class="tag">Education :</span> Graduation</p>
+                    <p><span class="tag">Nationality :</span> Indian</p>
+                </div>
+                <div class="rowbox center">
+            <a href="#dummy-links" class="icn"> <i class="fa-solid fa-phone" style="color: #918f8f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-solid fa-envelope" style="color: #e9de0f;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-linkedin" style="color: #3e0def;"></i></a>
+            <a href="#dummy-links" class="icn"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+
+                </div>
+
+                <p class="faded" id="query">
+                    Front end Web Developer
+                </p>
+            </div>
+       </section>
+</body>
+<script src="/index.js"></script>
+</html>

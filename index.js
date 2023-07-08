@@ -6,6 +6,19 @@ const pannel = document.getElementById('pannel');
 
 const form = document.getElementById('login-form');
 
+const handleSearch = ()=>{
+    if(value.value == ""){
+        result.style.display = 'none';
+        // console.log("nothing is in query")
+    }
+    else{
+        for (let i = 0; i < role.length; i++) {
+            role[i].innerHTML = value.value; 
+        }
+        result.style.display = 'flex';
+        // console.log("search function is running");
+    }
+};
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -19,20 +32,3 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-
-const handleSearch = ()=>{
-    if(value.value == ""){
-        result.style.display = 'none';
-        console.log("nothing is in query")
-    }
-    else{
-        for (let i = 0; i < role.length; i++) {
-            role[i].innerHTML = value.value; 
-        }
-        // for (let i = 0; i < query.length; i++) {
-        //     query[i].innerText = value.value; 
-        // }
-        result.style.display = 'flex';
-        console.log("search function is running");
-    }
-};
